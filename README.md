@@ -49,7 +49,9 @@ The strategy is amazingly simple. First of all you open up the box corresponding
 
 ## On to the Code
 
-To run the program as is, change directories to file and run *I am using macOS* <br>
+To run the program as is, there are no third party packages needed <br> 
+change directories to file and run *I am using macOS* <br>
+
 (base) andybialy$ *python3 prisoners.py* <br>
 Percent of time all 100 prisoners were correct with 50 guesses over 100 runs: <br>
 32.0% <br>
@@ -59,6 +61,6 @@ You can alter the runs however you like with: <br>
 -g to change the amount of guesses each prisoner gets to find their number, default=50 <br>
 -r to change the number of runs, default=100 <br>
 
-(base) andybialy$ python3 prisoners.py -p 100 -g 75 -r 200
-Percent of time all 100 prisoners were correct with 75 guesses over 200 runs:
-71.5%
+(base) andybialy$ python3 prisoners.py -p 100 -g 75 -r 200 <br>
+Percent of time all 100 prisoners were correct with 75 guesses over 200 runs: <br>
+71.5% <br>
